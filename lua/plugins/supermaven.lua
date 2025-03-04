@@ -4,10 +4,11 @@ return {
 		config = function()
 			require("supermaven-nvim").setup({
 				keymaps = {
-					accept_suggestion = "<Tab>",
+					accept_suggestion = "<C-y>",
 					clear_suggestion = "<C-]>",
+					accept_word = "<C-j>",
 				},
-				disable_inline_completion = true,
+				disable_inline_completion = false,
 			})
 		end,
 	},
